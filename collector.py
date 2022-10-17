@@ -11,7 +11,7 @@ end = 2  # 那一页结束
 key_words = "搜索关键字"
 RE = r":&quot;(https://github\.com.*)&quot;}"  # 正则匹配
 
-github_cookie = ""
+github_cookie = ""  # 输入你的GitHub Cookie
 headers = {
     "Host": "github.com",
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:105.0) Gecko/20100101 Firefox/105.0",
